@@ -4,7 +4,7 @@ Nice looking DNA Grabber for CH347 and RS232 cards, created by larsonist1 on Dis
 
 ## Installation
 
-You need Python 3 and pyinstaller. If you choose to compile it yourself, CD to the folder and run the following command:
+If you choose to compile it yourself, you need Python 3 and pyinstaller. CD to the folder and run the following command:
 
 ```bash
 pyinstaller LarsonistDNAGrabber.spec
