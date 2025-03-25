@@ -1,6 +1,6 @@
 # Larsonist's DNA Grabber
 
-Nice looking DNA Grabber for CH347 and RS232 cards, created by larsonist1 on Discord. Literally nothing special about it except that.
+Nice looking DNA Grabber for CH347 and RS232/FTDI cards, created by larsonist1 on Discord. Literally nothing special about it except that.
 
 ## Installation
 
@@ -17,4 +17,4 @@ No.
 
 ## License
 
-[MIT](https://choosealicense.com/licenses/mit/)
+[CC BY-NC](https://creativecommons.org/licenses/by-nc/4.0/)
