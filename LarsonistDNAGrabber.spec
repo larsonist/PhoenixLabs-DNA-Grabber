@@ -3,17 +3,34 @@
 block_cipher = None
 
 a = Analysis(
-    ['larsonistdnagrabber.py'],
+    ['main.py'],  
     pathex=[],
     binaries=[],
     datas=[
-        ('patched_openocd.exe', '.'),
-        ('get-dna-ch347.cfg', '.'),
-        ('get-dna-ftdi.cfg', '.'),
+        # openocd
+        ('openocd.exe', '.'),
+        ('openocd-347.exe', '.'),
+        
+        # cfg
         ('xilinx-dna.cfg', '.'),
+        ('xilinx-dna-347.cfg', '.'),
         ('xilinx-xc7.cfg', '.'),
         ('jtagspi.cfg', '.'),
-        ('larsonist.ico', '.')
+        ('init_232_35t.cfg', '.'),
+        ('init_232_75t.cfg', '.'),
+        ('init_347_35t.cfg', '.'),
+        ('init_347_75t.cfg', '.'),
+        
+        # dlls
+        ('cygusb-1.0.dll', '.'),
+        ('cygwin1.dll', '.'),
+        ('libhidapi-0.dll', '.'),
+        ('libusb-1.0.dll', '.'),
+        
+        # app
+        ('larsonist.ico', '.'),
+        ('gui', 'gui'),
+        ('core', 'core')
     ],
     hiddenimports=[],
     hookspath=[],
