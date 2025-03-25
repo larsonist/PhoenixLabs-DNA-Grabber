@@ -15,6 +15,10 @@ If you don't wanna compile it yourself, you can download the .exe in the release
 
 No.
 
+## Custom Branding
+
+If you'd like custom branding on this DNA Grabber, please DM me on Discord at larsonist1
+
 ## License
 
 [CC BY-NC](https://creativecommons.org/licenses/by-nc/4.0/)
