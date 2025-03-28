@@ -14,7 +14,7 @@ If you don't wanna compile it yourself, you can download the .exe in the release
 
 ## Support
 
-discord.gg/PhoenixLabs
+https://discord.gg/PhoenixLabs
 
 ## License
 
