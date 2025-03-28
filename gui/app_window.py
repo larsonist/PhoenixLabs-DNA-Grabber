@@ -20,11 +20,11 @@ class LarsonistDNAGrabberGUI:
         self.dna_grabber.set_debug_callback(self.log_debug)
         
         self.window = tk.Tk()
-        self.window.title("Larsonist's DNA Grabber")
+        self.window.title("Phoenix Labs DNA Grabber")
         self.window.geometry("800x340")  
         self.window.resizable(False, False)
 
-        icon_path = self.resource_path("larsonist.ico")
+        icon_path = self.resource_path("phoenix.ico")
         try:
             self.window.iconbitmap(icon_path)
         except:
@@ -88,14 +88,14 @@ class LarsonistDNAGrabberGUI:
         
         title_label = ttk.Label(
             title_frame, 
-            text="Larsonist's DNA Grabber", 
+            text="Phoenix Labs DNA Grabber", 
             style='Title.TLabel'
         )
         title_label.pack(anchor=tk.W)
         
         subtitle_label = ttk.Label(
             title_frame, 
-            text="FPGA Device Identification Tool", 
+            text="DMA DNA ID Tool, created by Larsonist1", 
             style='Subtitle.TLabel'
         )
         subtitle_label.pack(anchor=tk.W)
@@ -201,7 +201,7 @@ class LarsonistDNAGrabberGUI:
             text="READ DNA",
             command=self.read_dna,
             font=(self.ui_font, 11, 'bold'),
-            bg=self.colors['accent_blue'],
+            bg=self.colors['accent_plain'],
             fg=self.colors['text_primary'],
             activebackground=self.colors['accent_light'],
             activeforeground=self.colors['text_primary'],
@@ -237,7 +237,7 @@ class LarsonistDNAGrabberGUI:
             button.config(bg=normal_color)
         
         self.read_button.bind("<Enter>", lambda e: on_enter(e, self.read_button, self.colors['accent_light']))
-        self.read_button.bind("<Leave>", lambda e: on_leave(e, self.read_button, self.colors['accent_blue']))
+        self.read_button.bind("<Leave>", lambda e: on_leave(e, self.read_button, self.colors['accent_plain']))
     
         self.copy_button.bind("<Enter>", lambda e: on_enter(e, self.copy_button, '#4A4A4C'))
         self.copy_button.bind("<Leave>", lambda e: on_leave(e, self.copy_button, self.colors['bg_lighter']))

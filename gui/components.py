@@ -36,7 +36,7 @@ class LightningLogo(tk.Canvas):
         # Draw the main bolt shape
         self.create_polygon(
             bolt_points,
-            fill=self.colors['accent_blue'],
+            fill=self.colors['accent_plain'],
             outline="",
             smooth=False
         )
@@ -60,8 +60,8 @@ class LightningLogo(tk.Canvas):
 def create_styled_button(parent, text, command, style_type='primary', colors=None, ui_font=None):
     if not colors:
         colors = {
-            'accent_blue': '#0A84FF',
-            'accent_light': '#4CA2FF',
+            'accent_plain': '#7F1EC6',
+            'accent_light': '#AE29C3',
             'bg_dark': '#1E1E1E',
             'bg_card': '#2C2C2E',
             'bg_lighter': '#3A3A3C',
@@ -73,7 +73,7 @@ def create_styled_button(parent, text, command, style_type='primary', colors=Non
     
     button_styles = {
         'primary': {
-            'bg': colors['accent_blue'],
+            'bg': colors['accent_plain'],
             'fg': colors['text_primary'],
             'activebackground': colors['accent_light'],
             'activeforeground': colors['text_primary'],
@@ -92,7 +92,7 @@ def create_styled_button(parent, text, command, style_type='primary', colors=Non
         },
         'text': {
             'bg': colors['bg_dark'],
-            'fg': colors['accent_blue'],
+            'fg': colors['accent_plain'],
             'activebackground': colors['bg_dark'],
             'activeforeground': colors['accent_light'],
             'font': (ui_font, 10, 'bold'),

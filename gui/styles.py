@@ -10,13 +10,13 @@ class GUIStyles:
         self.mono_font = mono_font
         
         self.colors = {
-            'bg_dark': '#1E1E1E',
-            'bg_darker': '#141414',
-            'bg_lighter': '#2C2C2E',
-            'bg_card': '#2C2C2E',
-            'accent_blue': '#0A84FF',
-            'accent_light': '#4CA2FF',
-            'accent_dark': '#0066CC',
+            'bg_dark': '#1E1E1E', #dark gray
+            'bg_darker': '#141414', #dark gray
+            'bg_lighter': '#2C2C2E', #light gray
+            'bg_card': '#2C2C2E', #light gray
+            'accent_plain': '#7F1EC6', #middle ground
+            'accent_light': '#AE29C3', #super light
+            'accent_dark': '#6618C8', #dark
             'text_primary': '#FFFFFF',
             'text_secondary': '#EBEBF5',
             'text_muted': '#8E8E93',
@@ -51,7 +51,7 @@ class GUIStyles:
         style.configure('CardTitle.TLabel',
                        font=(self.ui_font, 13, 'bold'),
                        background=self.colors['bg_card'],
-                       foreground=self.colors['accent_blue'])
+                       foreground=self.colors['accent_plain'])
         
         style.configure('DNAContent.TFrame',
                        background=self.colors['bg_card'])

@@ -28,7 +28,7 @@ a = Analysis(
         ('libusb-1.0.dll', '.'),
         
         # app
-        ('larsonist.ico', '.'),
+        ('phoenix.ico', '.'),
         ('gui', 'gui'),
         ('core', 'core')
     ],
@@ -52,7 +52,7 @@ exe = EXE(
     a.zipfiles,
     a.datas,
     [],
-    name='LarsonistDNAGrabber',
+    name='PhoenixLabsDNAGrabber',
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,
@@ -64,5 +64,5 @@ exe = EXE(
     target_arch=None,
     codesign_identity=None,
     entitlements_file=None,
-    icon='larsonist.ico'
+    icon='phoenix.ico'
 )
