@@ -1,6 +1,6 @@
 # Phoenix Labs DNA Grabber
 
-Nice looking DNA Grabber for CH347 and RS232/FTDI cards, licensed for use by Phoenix Labs by larsonist1.
+Nice looking DNA Grabber for CH347 and RS232/FTDI cards, licensed for use by Phoenix Labs. Created by larsonist1 on Discord.
 
 ## Installation
 
@@ -14,7 +14,7 @@ If you don't wanna compile it yourself, you can download the .exe in the release
 
 ## Support
 
-No.
+discord.gg/PhoenixLabs
 
 ## License
 
